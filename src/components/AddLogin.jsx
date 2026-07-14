@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useState } from "react";
+import Navibar from "./Navibar";
 
 const AddLogin = () => {
   const [input, changeInput] = useState({
@@ -48,6 +49,7 @@ const AddLogin = () => {
 
   return (
     <div className="container mt-4">
+        <Navibar/>
       <div className="row">
         <div className="col-12">
 

@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import Navibar from "./Navibar";
 
 const ViewLogin = () => {
   const [data, setData] = useState([]);
@@ -21,6 +22,7 @@ const ViewLogin = () => {
 
   return (
     <div className="container mt-4">
+        <Navibar/>
       <div className="row g-4">
         {data.map((value, index) => (
           <div
