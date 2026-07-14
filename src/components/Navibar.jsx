@@ -3,7 +3,7 @@ import React from 'react'
 const Navibar = () => {
   return (
     <div>
-
+        
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">LAb App</a>
