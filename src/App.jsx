@@ -4,7 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import AddLogin from './components/AddLogin'
-import ViewLogin from './components/ViewLogin'
+import NewView from './components/NewView'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
      <BrowserRouter>
      <Routes>
       <Route path='/' element={<AddLogin/>}/>
-      <Route path='/view' element={<ViewLogin/>}/>
+      <Route path='/view' element={<NewView/>}/>
      </Routes>
      </BrowserRouter>
     </>
